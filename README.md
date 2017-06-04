@@ -84,6 +84,8 @@ $ ruby app.rb
 - because of avoiding conflict as same **listname**, **list_id** is attached to **listname**
 
 #### others
+- `"\r\n"`, `"\r"` and `"\n"` are replaced to `<br>` because they are separator of `card` on `Trello`
+    - it's not cute
 - `folder name` isn't considered because `JSON` file doesn't have its data
 - `limit date`, `reminder`, `sub-task` and `attached file` aren't considered too, because difficult to format them for importing
 

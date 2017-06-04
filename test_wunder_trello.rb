@@ -1,5 +1,5 @@
 require 'test/unit'
-require './wunder_trello'
+require_relative 'wunder_trello'
 
 class TestWunderTrello < Test::Unit::TestCase
   # oh... not beautiful
