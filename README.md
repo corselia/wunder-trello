@@ -1,4 +1,3 @@
-# CircleCI
 [![CircleCI](https://circleci.com/gh/corselia/wunder-trello/tree/master.svg?style=svg)](https://circleci.com/gh/corselia/wunder-trello/tree/master)
 
 # Overview
