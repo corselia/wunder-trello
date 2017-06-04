@@ -194,7 +194,7 @@ class TestWunderTrello < Test::Unit::TestCase
       suffix    = param[:completed] == true ? "copmleted_" : "uncompleted_"
       suffix    += param[:star] == true ? "starred" : "unstarred"
       filename  = "#{param[:list]}(#{param[:list_id]}) - #{suffix}#{extension}"
-      assert_equal true, /.*(copmleted_starred|copmleted_unstarred|uncompleted_starred|uncompleted_unstarred)\.txt$/ === filename
+      assert_equal true, /.*(completed_starred|completed_unstarred|uncompleted_starred|uncompleted_unstarred)\.txt$/ === filename
     end
   end
 

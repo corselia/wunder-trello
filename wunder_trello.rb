@@ -68,7 +68,7 @@ class WunderTrello
 
   def which_file_to_write(param)
     extension = ".txt"
-    suffix    = param[:completed] == true ? "copmleted_" : "uncompleted_"
+    suffix    = param[:completed] == true ? "completed_" : "uncompleted_"
     suffix    += param[:star] == true ? "starred" : "unstarred"
     filename  = "#{param[:list]}(#{param[:list_id]}) - #{suffix}#{extension}"
   end
