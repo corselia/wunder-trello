@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/corselia/wunder-trello/tree/master.svg?style=svg)](https://circleci.com/gh/corselia/wunder-trello/tree/master)
 
 # Overview
-- support tool from [`Wunderlist`](https://www.wunderlist.com/) to [`Trello`](https://trello.com/)
+- support tool for moving data from [`Wunderlist`](https://www.wunderlist.com/) to [`Trello`](https://trello.com/)
 - function is limited
 
 # Easy Trial
