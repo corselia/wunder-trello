@@ -2,3 +2,5 @@ machine:
   timezone: Asia/Tokyo
   ruby:
     version: 2.3.1
+override:
+  - ruby test_wunder_trello.rb
