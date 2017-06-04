@@ -87,6 +87,9 @@ $ ruby app.rb
     - it's not cute
 - `folder name` isn't considered because `JSON` file doesn't have its data
 - `limit date`, `reminder`, `sub-task` and `attached file` aren't considered too, because difficult to format them for importing
+- you need to divide content for paste when over 100 lines
+
+    ![wunder-trello_05](./img/wunder-trello_05.png "wunder-trello_05")
 
 #### API
 - `API`? I don't know it :)
